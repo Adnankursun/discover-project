@@ -3,13 +3,14 @@
 
 /*TOP*/
 
-.logo_top{max-width: 72%;padding-top: 40px;}
+.logo_top{max-width: 40%;padding-top: 50px;}
 
 .top_part{position: relative;}
 
 .img-top{position: absolute;
 top: 0;
 right: 0%;}
+
 
 .top_glasses{max-width: 70%;z-index: 2;}
 
@@ -20,7 +21,8 @@ right: 0%;}
 
 
 
-.banner_fluid_container{position: relative;margin-top: 50px;margin-bottom: 100px;}
+.banner_fluid_container{position: relative;margin-top: 50px;margin-bottom: 0px;
+background-color:#23233f;}
 
 
 .banner_right_image{max-width: 28%;position: absolute;
@@ -33,15 +35,15 @@ z-index: 1;}
 .xbox_right_image{max-width: 100%;}
 .drone_image{max-width: 90%;}
 
-.banner_titles_row{position: relative;top: 140px;}
+.banner_titles_row{padding-top: 100px;padding-bottom: 120px;}
 
 
 .title{font-weight: 800;
 font-size:50px;
-color:#404340;}
+color:#fff;}
 
 
-.top_banner_link{background: #0276b1;
+.top_banner_link{background: #ea5b28;
 padding: 15px 30px 15px 30px;color: #fff;
 border-radius: 5px;
 font-size: 22px;
@@ -51,7 +53,7 @@ font-weight: 600;
 transition: 0.3s;}
 
 
-.top_banner_link:hover{background: #036287;
+.top_banner_link:hover{background: #db4619;
 padding: 15px 30px 15px 30px;color: #fff;
 border-radius: 5px;
 font-size: 22px;
@@ -76,7 +78,7 @@ padding-bottom: 40px;}
 
 
 
-.steps_margin{margin-top: 350px;margin-bottom: 30px;}
+.steps_margin{margin-top: 0px;margin-bottom: 30px;}
 
 
 
@@ -91,7 +93,7 @@ padding-bottom: 40px;}
 .card-body{padding: 20px;}
 
 
-.button_card{background: #0276b1;
+.button_card{background-color: #ea5b28;
 padding:10px;color: #fff;
 border-radius: 5px;
 
@@ -103,7 +105,7 @@ transition: 0.3s;}
 
 
 
-.button_card:hover{background: #036287;
+.button_card:hover{background: #db4619;
 padding:10px;color: #fff;
 border-radius: 5px;
 text-decoration: none;
@@ -132,6 +134,7 @@ border-top: 1px solid #e9ecef;}
 /*MOBILE RESPONSIVE IPHONE SCREENS*/
 @media (max-width:767px) { 
 
+.response{display: none;}
 
 
 .steps_margin{margin-top: 100px;}
