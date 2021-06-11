@@ -1,0 +1,161 @@
+
+
+
+/*TOP*/
+
+.logo_top{max-width: 40%;padding-top: 50px;}
+
+.top_part{position: relative;}
+
+.img-top{position: absolute;
+top: 0;
+right: 0%;}
+
+
+.top_glasses{max-width: 70%;z-index: 2;}
+
+
+.footer_links{color:#c1c1c1;transition: 0.3s;font-size: 20px;}
+.footer_links:hover{color:#273c46;font-size: 20px;}
+
+
+
+
+.banner_fluid_container{position: relative;margin-top: 50px;margin-bottom: 0px;
+background-color:#23233f;}
+
+
+.banner_right_image{max-width: 28%;position: absolute;
+top: 10%;
+right: 0%;
+z-index: 1;}
+
+
+
+.xbox_right_image{max-width: 100%;}
+.drone_image{max-width: 90%;}
+
+.banner_titles_row{padding-top: 100px;padding-bottom: 120px;}
+
+
+.title{font-weight: 800;
+font-size:50px;
+color:#fff;}
+
+
+.top_banner_link{background: #ea5b28;
+padding: 15px 30px 15px 30px;color: #fff;
+border-radius: 5px;
+font-size: 22px;
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+transition: 0.3s;}
+
+
+.top_banner_link:hover{background: #db4619;
+padding: 15px 30px 15px 30px;color: #fff;
+border-radius: 5px;
+font-size: 22px;
+font-weight: 600;
+color: #fff;
+text-decoration: none;
+transition: 0.3s;}
+
+.button_top{margin-top: 60px;}
+
+
+
+.stars_top{max-width: 26%;}
+
+
+
+.bg_steps{ background-color: #F2F2F2;
+    color: #A1A1A1;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;}
+
+
+
+.steps_margin{margin-top: 0px;margin-bottom: 30px;}
+
+
+
+
+.cards_container{padding-bottom: 100px;}
+
+
+.card{box-shadow: 0 0 15px 2px #f8f8ff;border: 0;text-align: center;transition: 0.3s;}
+.card:hover{box-shadow: 0 0 25px 2px #f2f2f4;border: 0;text-align: center;}
+
+
+.card-body{padding: 20px;}
+
+
+.button_card{background-color: #ea5b28;
+padding:10px;color: #fff;
+border-radius: 5px;
+
+font-size: 15px;
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+transition: 0.3s;}
+
+
+
+.button_card:hover{background: #db4619;
+padding:10px;color: #fff;
+border-radius: 5px;
+text-decoration: none;
+font-size: 15px;
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+transition: 0.3s;}
+
+
+.card_link_full:hover{text-decoration: none;}
+
+
+
+
+
+.footer_section{margin-top: 50px;
+padding-top: 40px;
+padding-bottom: 40px;
+border-top: 1px solid #e9ecef;}
+
+
+
+
+
+/*MOBILE RESPONSIVE IPHONE SCREENS*/
+@media (max-width:767px) { 
+
+.response{display: none;}
+
+
+.steps_margin{margin-top: 100px;}
+
+.img-top{position: absolute;
+top: 0;
+right: -100%;
+display: none!important;}
+
+
+.banner_image_setting{display: none;}
+
+
+
+
+.banner_titles_row{position: relative;top: 50px;}
+
+
+
+.stars_top{max-width: 50%;}
+
+
+}/*close*/
+
